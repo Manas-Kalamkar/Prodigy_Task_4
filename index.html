@@ -264,7 +264,16 @@
     </section>
   </main>
 </body>
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Web Developer.', 'Web Designer.', 'Software Developer.'],
+    typeSpeed: 50,
+  });
+</script>
 </body>
 <!-- <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0-beta17/dist/js/tabler.min.js"></script>
   <link
